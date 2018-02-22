@@ -12,6 +12,7 @@ apt-get install unzip php5-mcrypt php5-gd -y
 apt-get install proftpd -y
 
 a2enmod rewrite
+a2dissite 000-default.conf
 service apache2 restart
 
 adduser ftpuser -shell /bin/false
