@@ -24,6 +24,3 @@ DefaultRoot ~ ftpuser
     DenyGroup !ftpuser
 </Limit>
 EOT
-
-mkdir /opt/script
-apt-get install git -y
