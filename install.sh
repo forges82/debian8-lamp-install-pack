@@ -25,3 +25,4 @@ DefaultRoot ~ ftpuser
     DenyGroup !ftpuser
 </Limit>
 EOT
+service proftpd restart
