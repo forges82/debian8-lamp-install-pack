@@ -2,6 +2,7 @@
 
 apt-get update
 apt install apache2 -y
+mv example.com.conf /etc/apache2/sites-available/
 apt install mysql-server php5-mysql -y
 mysql_secure_installation
 apt install php5-common libapache2-mod-php5 php5-cli -y
