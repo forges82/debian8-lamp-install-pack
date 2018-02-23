@@ -1,4 +1,4 @@
-# debian8-lamp-install-pack
+# Debian 8 Lamp Install Pack
 
 ## First step
 
@@ -12,3 +12,8 @@ cd /opt/script/debian8-lamp-install-pack
 chmod +x install.sh
 ./install.sh
 ```
+# Files
+
+## install.sh
+
+This file install Apache2, PHP 5 and MySQL.
